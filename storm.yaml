@@ -1,0 +1,14 @@
+storm.zookeeper.servers:
+  - "192.168.1.101"
+  - "192.168.1.102"
+
+storm.local.dir = "/mnt/storm"
+
+nimbus.host = "192.168.1.100"
+
+supervisor.slots.ports:
+  - 6700
+  - 6701
+  - 6702
+  - 6703
+
